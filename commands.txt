@@ -1,0 +1,400 @@
+User@DESKTOP-QCQLHOR MINGW64 ~ (master)
+$ cd galaxy-far-far-away5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ git init
+Initialized empty Git repository in C:/Users/User/galaxy-far-far-away5/.git/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ touch commands.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ mkdir death_star5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd death_star5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ touch darth_vader5.txt princess_leila5.txt storm_trooper5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ mkdir tatooine5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd tatooine5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ touch luke.txt ben_kenobi.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ mkdir millenium_falcon_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ cd millenium_falcon_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5/millenium_falcon_5 (master)
+$ touch han_solo.txt chewbaca.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5/millenium_falcon_5 (master)
+$ ls
+chewbaca.txt  han_solo.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5/millenium_falcon_5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ ls
+ben_kenobi.txt  luke.txt  millenium_falcon_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ mv ben_kenobi.txt obi-wan.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ ls
+luke.txt  millenium_falcon_5/  obi-wan.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd death_star5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_trooper.txt ../tatooine5
+cp: cannot stat 'storm_trooper.txt': No such file or directory
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ ls
+darth_vader5.txt  princess_leila5.txt  storm_trooper5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_trooper5.txt ../tatooine5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd tatooine5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ ls
+luke.txt  millenium_falcon_5/  obi-wan.txt  storm_trooper5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ mv luke.txt obi-wan.txt millenium_falcon_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ mv millenium_falcon_5 ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/tatooine5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  death_star5/  millenium_falcon_5/  tatooine5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ mv millenium_falcon_5 death_star5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd death_star5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ mv princess_leia5.txt millenium_falcon_5
+mv: cannot stat 'princess_leia5.txt': No such file or directory
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ ls
+darth_vader5.txt  millenium_falcon_5/  princess_leila5.txt  storm_trooper5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ mv princess_leila5.txt millenium_falcon_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cd millenium_falcon_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/millenium_falcon_5 (master)
+$ ls
+chewbaca.txt  han_solo.txt  luke.txt  obi-wan.txt  princess_leila5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/millenium_falcon_5 (master)
+$ rm obi-wan.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/millenium_falcon_5 (master)
+$ cd ~/galaxy-far-far-away5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ mkdir yavin_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  death_star5/  tatooine5/  yavin_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ mv death_star5/millenium_falcon_5 yavin_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd yavin_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ ls
+millenium_falcon_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd yavin_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ ls
+millenium_falcon_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ mk dir x_wing5
+bash: mk: command not found
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ mkdir x_wing5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ ls
+millenium_falcon_5/  x_wing5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ mv millenium_falcon_5/princess_leila5.txt ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ ls
+millenium_falcon_5/  x_wing5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  death_star5/  princess_leila5.txt  tatooine5/  yavin_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ mv princess_leila5.txt yavin_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd yavin_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ ls
+millenium_falcon_5/  princess_leila5.txt  x_wing5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ mv millenium_falcon_5/luke.txt x_wing5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ cd x_wing5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5/x_wing5 (master)
+$ ls
+luke.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5/x_wing5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ mv millenium_falcon_5 x_wing5 ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ ls
+princess_leila5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  death_star5/  millenium_falcon_5/  tatooine5/  x_wing5/  yavin_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd death_star5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ ls
+darth_vader5.txt  storm_trooper5.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ mv darth_vader5.txt tie_fighter_1
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ ls
+storm_trooper5.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_tropper5.txt tie_fighter_2 tie_fighter_3
+cp: cannot stat 'storm_tropper5.txt': No such file or directory
+cp: -r not specified; omitting directory 'tie_fighter_2'
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_tropper5.txt -r tie_fighter_2 tie_fighter_3
+cp: cannot stat 'storm_tropper5.txt': No such file or directory
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_tropper5.txt tie_fighter_2
+cp: cannot stat 'storm_tropper5.txt': No such file or directory
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ ls
+storm_trooper5.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_trooper5.txt tie_fighter_2 tie_fighter_3
+cp: -r not specified; omitting directory 'tie_fighter_2'
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_trooper5.txt -r tie_fighter_2 tie_fighter_3
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ ls
+storm_trooper5.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cd tie_fighter_2
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_2 (master)
+$ ls
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_2 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_trooper5.txt tie_fighter_2
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cp storm_trooper5.txt tie_fighter_3
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cd tie_fighter_2
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_2 (master)
+$ ls
+storm_trooper5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_2 (master)
+$ cd tie_fighter_3
+bash: cd: tie_fighter_3: No such file or directory
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_2 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cd tie_fighter_3
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_3 (master)
+$ ls
+storm_trooper5.txt  tie_fighter_2/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_3 (master)
+$ rm -r tie_fighter_2
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_3 (master)
+$ ls
+storm_trooper5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5/tie_fighter_3 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ ls
+storm_trooper5.txt  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ mv tie_fighter_* ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ ls
+storm_trooper5.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/death_star5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  death_star5/  millenium_falcon_5/  tatooine5/  tie_fighter_1/  tie_fighter_2/  tie_fighter_3/  x_wing5/  yavin_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ rm -r tie_fighter_2 tie_fighter_3
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  death_star5/  millenium_falcon_5/  tatooine5/  tie_fighter_1/  x_wing5/  yavin_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ touch the_force.txt ~/galaxy-far-far-away5/x_wing5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd x_wing5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/x_wing5 (master)
+$ ls
+luke.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/x_wing5 (master)
+$ touch the_force.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/x_wing5 (master)
+$ ls
+luke.txt  the_force.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/x_wing5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ rm death_star5
+rm: cannot remove 'death_star5': Is a directory
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ rm -r death_star5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  millenium_falcon_5/  tatooine5/  the_force.txt  tie_fighter_1/  x_wing5/  yavin_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ rm the_force.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  millenium_falcon_5/  tatooine5/  tie_fighter_1/  x_wing5/  yavin_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd x_wing5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/x_wing5 (master)
+$ ls
+luke.txt  the_force.txt
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/x_wing5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ mv millenium_falcon_5 x_wing5 yavin_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ cd yavin_5
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ ls
+millenium_falcon_5/  princess_leila5.txt  x_wing5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5/yavin_5 (master)
+$ cd ..
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$ ls
+commands.txt  tatooine5/  tie_fighter_1/  yavin_5/
+
+User@DESKTOP-QCQLHOR MINGW64 ~/galaxy-far-far-away5 (master)
+$
